@@ -1,0 +1,8 @@
+import itertools 
+
+iterable=[1,2,3,4,5]
+cycle_iter=itertools.cycle(iterable)
+
+
+for i in range(15):
+    print(next(cycle_iter))
